@@ -14,8 +14,8 @@ async function bootstrap() {
 
   // Configure Swagger
   const config = new DocumentBuilder()
-    .setTitle("Todo API")
-    .setDescription("The Todo API description")
+    .setTitle("Figma Copy Updater API")
+    .setDescription("API for updating text using OpenAI's GPT-4")
     .setVersion("1.0")
     .build();
   const document = SwaggerModule.createDocument(app, config);
